@@ -1,7 +1,6 @@
 // //ReactDOM.render(<h1>Suren Home</h1>, document.getElementById("root"))
 // //import ReactDOM from 'react';
  import ReactDOM from 'react-dom'
- //import { render } from 'react-dom';
 
 // ReactDOM.render(
 // <ul className='unlist'>
@@ -77,22 +76,7 @@
 // )
 
 
-// const element = <div><h1>Welcome to New React Product</h1><h2>1234</h2></div>
-// console.log(element)  
+const element = <div><h1>p1</h1><h2>1234</h2></div>
+console.log(element)  
 
-// ReactDOM.render(element, document.getElementById("root"))
-
-const navbar = (
-    <nav>
-                <h1>Logo</h1>
-                <div>
-                    <ul>
-                        <li>Prising</li>
-                        <li>About</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </div>
-    </nav>
-)
-
-ReactDOM.render(navbar, document.getElementById("root"))
+ReactDOM.render(element, document.getElementById("top_header"))
